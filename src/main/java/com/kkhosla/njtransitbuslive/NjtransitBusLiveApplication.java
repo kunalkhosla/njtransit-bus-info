@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class NjtransitBusLiveApplication {
 
 	public static void main(String[] args) {
-		System.getProperties().put("server.port", "10003" );
+		System.getProperties().put("server.port", "5000" );
 		//System.getProperties().put("server.contextPath", "/businfo");
 
 		SpringApplication.run(NjtransitBusLiveApplication.class, args);
